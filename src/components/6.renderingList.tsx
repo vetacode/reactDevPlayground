@@ -9,6 +9,7 @@ export default function ShoppingLists() {
     <li
       key={product.id}
       style={{ color: product.isFruit ? 'magenta' : 'darkgreen' }}
+      className='uppercase text-2xl font-extrabold'
     >
       {product.title}
     </li>
