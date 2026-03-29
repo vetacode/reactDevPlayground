@@ -7,7 +7,7 @@ const user = {
 export default function Profile() {
   return (
     <>
-      <h1>{user.name}</h1>
+      <h1 className='text-3xl italic font-bold text-orange-600'>{user.name}</h1>
       <img
         className='avatar'
         src={user.imageUrl}
